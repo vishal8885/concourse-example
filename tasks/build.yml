@@ -9,4 +9,5 @@ inputs:
   - name: pipeline
 
 run:
-  path: pipeline/scripts/build.sh
+path: /bin/sh
+args: ["pipeline/scripts/build.sh"]
